@@ -1,22 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Le Cauris - ArtRévolution",
-  description: "L’écho de la richesse culturelle africaine.",
+  title: "Le Cauris - ArtRévolution | Excellence Artistique Africaine",
+  description:
+    "L'écho de la richesse culturelle africaine. Découvrez une plateforme dédiée à la propulsion des talents et à la sauvegarde du patrimoine artistique.",
 };
 
 export default function RootLayout({
@@ -25,14 +26,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="fr" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen font-sans`}
+        className={`${inter.variable} ${outfit.variable} antialiased flex flex-col min-h-screen font-sans bg-white text-neutral-900`}
       >
         <Header />
-        <main className="flex-grow">
-          {children}
-        </main>
+        <main className="grow">{children}</main>
         <Footer />
       </body>
     </html>
