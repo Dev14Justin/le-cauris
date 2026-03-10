@@ -28,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className="scroll-smooth">
       <body
+        suppressHydrationWarning
         className={`${inter.variable} ${outfit.variable} antialiased flex flex-col min-h-screen font-sans bg-white text-neutral-900`}
       >
         <Header />

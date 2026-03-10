@@ -101,7 +101,7 @@ export default function About() {
                 <div className="text-lg md:text-xl text-neutral-600 space-y-6 font-light leading-relaxed">
                   <p>
                     Art Révolution est né d&apos;une vision : celle de WOMI
-                    Koffi Arsène, convaincu que l&apos;artiste, pour impacter,
+                    Koffi Arsène et de Cosmaskete alias KETE Atsou convaincu que l&apos;artiste, pour impacter,
                     doit conjuguer talent, discipline et quête intérieure. Pour
                     lui, l&apos;art est un levier puissant de transformation
                     sociale.

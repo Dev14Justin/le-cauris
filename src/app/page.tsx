@@ -26,8 +26,8 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 tracking-tighter animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
-            Le Cauris <span className="text-orange-600"> ArtRévolution</span>
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-8 tracking-tighter animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
+            <span className="text-orange-600"> Le Cauris : </span>  Plateforme engagée dans la valorisation des arts africains
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl text-neutral-300 mb-12 max-w-4xl mx-auto font-light leading-relaxed animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-300">
             Au-delà des formes, l&apos;écho d&apos;une culture. Découvrez une

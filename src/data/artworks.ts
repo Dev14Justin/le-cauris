@@ -53,5 +53,14 @@ export const artworks: Artwork[] = [
     imageUrl: "/Œuvres le cauris dans la bible_.jpg",
     category: "Art Spirituel / Traditionnel",
     year: "2023"
-  }
+  },
+  {
+    id: "6",
+    title: "Les deux Jumelles",
+    artist: "KOUGBLENOU Marcel Kodzo",
+    description: "Œuvre mettant en valeur la complicité entre deux soeurs jumelles.",
+    imageUrl: "/jumeaux.jpeg",
+    category: "Art Spirituel / Traditionnel",
+    year: "2023"
+  },
 ];

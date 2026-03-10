@@ -21,7 +21,7 @@ export const categories: Category[] = [
     title: "Arts de la Scène",
     description: "Le mouvement, la voix et l'émotion en direct.",
     items: ["Musique", "Slam", "Poésie", "Théâtre", "Danse", "Humour", "Comédie"],
-    imageUrl: "/b-0.jpg",
+    imageUrl: "/music.jpg",
     color: "bg-neutral-800"
   },
   {
@@ -29,7 +29,7 @@ export const categories: Category[] = [
     title: "Autres Expressions",
     description: "Le design et les nouvelles formes d'art numérique.",
     items: ["Art décoratif", "Art numérique", "Design créatif", "Artisanat d'art"],
-    imageUrl: "/Œuvre Simplicité_.jpg",
+    imageUrl: "/art_décoratif.jpg",
     color: "bg-orange-500"
   }
 ];

@@ -135,7 +135,6 @@ export default function Contact() {
             {/* Contact Form */}
             <div className="lg:col-span-3">
               <div className="bg-white p-6 md:p-8 rounded-[24px] shadow-lg relative overflow-hidden border border-neutral-100">
-                <div className="absolute top-0 left-0 w-1.5 h-full bg-orange-600"></div>
                 <h2 className="text-xl font-bold mb-6 text-neutral-800">
                   Envoyez-nous un message
                 </h2>

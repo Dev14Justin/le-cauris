@@ -1,24 +1,46 @@
 "use client";
 
+import { useState } from "react";
 import Section from "@/components/Section";
 import { events } from "@/data/events";
 import Image from "next/image";
+import Link from "next/link";
+
+const eventTypes = [
+  "Tous",
+  "Festival",
+  "Exposition",
+  "Concert",
+  "Talk Show",
+  "Résidence Artistique",
+  "Excursion Culturelle",
+  "Lancement de Livre",
+];
 
 export default function Events() {
-  const eventTypes = [
-    "Expositions",
-    "Concerts",
-    "Conférences",
-    "Ateliers",
-    "Vernissages",
-    "Festivals",
-  ];
+  const [activeFilter, setActiveFilter] = useState("Tous");
+  const [activeTab, setActiveTab] = useState<"all" | "avenir" | "passe">("all");
+
+  const filteredEvents = events.filter((e) => {
+    const matchType =
+      activeFilter === "Tous" ||
+      e.type.toLowerCase().includes(activeFilter.toLowerCase());
+    const matchTab =
+      activeTab === "all" ||
+      (activeTab === "avenir" && e.status === "À venir") ||
+      (activeTab === "passe" && e.status === "Passé");
+    return matchType && matchTab;
+  });
+
+  const upcomingCount = events.filter((e) => e.status === "À venir").length;
+  const passedCount = events.filter((e) => e.status === "Passé").length;
 
   return (
     <>
       {/* Hero Section */}
       <div className="bg-neutral-900 text-white py-24 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/3 h-full bg-orange-600/10 -skew-x-12 translate-x-20"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-orange-600/5 rounded-full blur-3xl -mb-32 -ml-32"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight">
             Agenda Culturel
@@ -27,79 +49,136 @@ export default function Events() {
             Ne manquez aucun rendez-vous majeur. Suivez le rythme effréné de la
             création et des échanges artistiques.
           </p>
+          <div className="flex flex-wrap justify-center gap-6 mt-10">
+            <div className="flex flex-col items-center">
+              <span className="text-4xl font-black text-orange-600">
+                {upcomingCount}
+              </span>
+              <span className="text-xs text-neutral-500 uppercase tracking-widest font-bold mt-1">
+                À venir
+              </span>
+            </div>
+            <div className="w-px h-12 bg-white/10 hidden sm:block self-center"></div>
+            <div className="flex flex-col items-center">
+              <span className="text-4xl font-black text-neutral-400">
+                {passedCount}
+              </span>
+              <span className="text-xs text-neutral-500 uppercase tracking-widest font-bold mt-1">
+                Passés
+              </span>
+            </div>
+            <div className="w-px h-12 bg-white/10 hidden sm:block self-center"></div>
+            <div className="flex flex-col items-center">
+              <span className="text-4xl font-black text-white">
+                {events.length}
+              </span>
+              <span className="text-xs text-neutral-500 uppercase tracking-widest font-bold mt-1">
+                Total
+              </span>
+            </div>
+          </div>
         </div>
       </div>
 
       <Section className="bg-white">
         <div className="max-w-7xl mx-auto">
-          {/* Legend/Filters */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {eventTypes.map((type) => (
-              <span
-                key={type}
-                className="px-4 py-1.5 rounded-full border border-neutral-200 text-neutral-600 font-medium hover:border-orange-600 hover:text-orange-600 transition-colors cursor-pointer text-[11px] uppercase tracking-wider"
+          {/* Status Tabs */}
+          <div className="flex justify-center gap-2 mb-8">
+            {(["all", "avenir", "passe"] as const).map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`px-6 py-2.5 rounded-full text-[11px] font-black uppercase tracking-widest transition-all cursor-pointer ${
+                  activeTab === tab
+                    ? "bg-orange-600 text-white shadow-lg shadow-orange-600/20"
+                    : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
+                }`}
               >
-                {type}
-              </span>
+                {tab === "all"
+                  ? "Tous les événements"
+                  : tab === "avenir"
+                    ? "À venir"
+                    : "Passés"}
+              </button>
             ))}
           </div>
 
-          <div className="space-y-10">
-            {events.map((event) => (
-              <div
-                key={event.id}
-                className="group relative flex flex-col md:flex-row bg-white border border-neutral-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-500"
+          {/* Type Filters */}
+          <div className="flex flex-wrap justify-center gap-3 mb-12">
+            {eventTypes.map((type) => (
+              <button
+                key={type}
+                onClick={() => setActiveFilter(type)}
+                className={`px-4 py-1.5 rounded-full border text-[11px] font-bold uppercase tracking-wider transition-all cursor-pointer ${
+                  activeFilter === type
+                    ? "border-orange-600 text-orange-600 bg-orange-50"
+                    : "border-neutral-200 text-neutral-600 hover:border-orange-600 hover:text-orange-600"
+                }`}
               >
-                {/* Visual */}
-                <div className="w-full md:w-80 relative h-64 md:h-auto overflow-hidden">
-                  <Image
-                    src={event.imageUrl || "/b-0.jpg"}
-                    alt={event.title}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
-                  <div
-                    className={`absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest ${
-                      event.status === "À venir"
-                        ? "bg-orange-600 text-white"
-                        : event.status === "En cours"
-                          ? "bg-green-600 text-white"
-                          : "bg-neutral-200 text-neutral-600"
-                    }`}
-                  >
-                    {event.status}
-                  </div>
-                </div>
+                {type}
+              </button>
+            ))}
+          </div>
 
-                {/* Content */}
-                <div className="grow p-6 md:p-8">
-                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5">
-                    <div>
-                      <span className="text-orange-600 font-bold text-[11px] uppercase tracking-widest">
-                        {event.type}
-                      </span>
-                      <h2 className="text-xl font-bold text-neutral-800 mt-1">
+          {/* Events Grid – Card Layout */}
+          {filteredEvents.length === 0 ? (
+            <div className="text-center py-24 text-neutral-400">
+              <p className="text-xl font-light">
+                Aucun événement pour cette sélection.
+              </p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {filteredEvents.map((event) => (
+                <div
+                  key={event.id}
+                  className="group flex flex-col bg-white border border-neutral-100 rounded-[24px] overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-500"
+                >
+                  {/* Poster Image */}
+                  <div className="relative aspect-[3/4] overflow-hidden">
+                    <Image
+                      src={event.imageUrl || "/b-0.jpg"}
+                      alt={event.title}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    {/* Gradient overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/80 via-transparent to-transparent"></div>
+
+                    {/* Status Badge */}
+                    <div
+                      className={`absolute top-4 left-4 px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-widest shadow ${
+                        event.status === "À venir"
+                          ? "bg-orange-600 text-white"
+                          : event.status === "En cours"
+                            ? "bg-green-500 text-white"
+                            : "bg-white/20 backdrop-blur-sm text-white border border-white/30"
+                      }`}
+                    >
+                      {event.status}
+                    </div>
+
+                    {/* Type Badge */}
+                    <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-neutral-950/60 backdrop-blur-sm text-white text-[9px] font-bold uppercase tracking-widest border border-white/10">
+                      {event.type}
+                    </div>
+
+                    {/* Bottom info overlay */}
+                    <div className="absolute bottom-0 left-0 right-0 p-4">
+                      <p className="text-orange-400 text-[10px] font-black uppercase tracking-widest mb-1">
+                        {event.date}
+                      </p>
+                      <h2 className="text-white font-black text-base leading-tight tracking-tight">
                         {event.title}
                       </h2>
                     </div>
-                    <div className="text-left md:text-right">
-                      <div className="text-xl font-black text-neutral-800 tracking-tighter">
-                        {event.date.split(" ")[0]}
-                      </div>
-                      <div className="text-neutral-400 font-medium text-[11px] uppercase tracking-wider">
-                        {event.date.split(" ").slice(1).join(" ")}
-                      </div>
-                    </div>
                   </div>
 
-                  <p className="text-neutral-600 text-sm mb-6 leading-relaxed max-w-3xl font-light">
-                    {event.description}
-                  </p>
-
-                  <div className="flex flex-wrap items-center gap-6 text-neutral-500 font-medium pt-5 border-t border-neutral-50">
-                    <div className="flex items-center">
+                  {/* Card Content */}
+                  <div className="flex flex-col flex-1 p-5">
+                    <div className="flex items-center gap-2 text-neutral-500 text-xs mb-3">
                       <svg
-                        className="w-4 h-4 mr-2 text-orange-600"
+                        className="w-3.5 h-3.5 text-orange-500 shrink-0"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -117,18 +196,28 @@ export default function Events() {
                           d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                         />
                       </svg>
-                      <span className="text-[13px]">{event.location}</span>
+                      <span className="font-medium line-clamp-1">
+                        {event.location}
+                      </span>
                     </div>
+
+                    <p className="text-neutral-500 text-xs leading-relaxed font-light line-clamp-3 flex-1">
+                      {event.description}
+                    </p>
+
                     {event.status === "À venir" && (
-                      <button className="ml-auto bg-neutral-950 text-white px-6 py-2.5 rounded-full font-bold hover:bg-orange-600 transition-all shadow-md text-[11px] uppercase tracking-widest">
-                        En savoir plus
-                      </button>
+                      <Link
+                        href="/contact"
+                        className="mt-4 block text-center bg-orange-600 text-white py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-orange-700 transition-all shadow-md shadow-orange-600/20"
+                      >
+                        Je m&apos;inscris
+                      </Link>
                     )}
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
       </Section>
 

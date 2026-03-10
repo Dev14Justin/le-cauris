@@ -45,9 +45,7 @@ const Header = () => {
               className="object-cover"
             />
           </div>
-          <span className="text-lg md:text-xl font-black text-neutral-900 tracking-tighter shrink-0">
-            Le Cauris <span className="text-orange-600">ArtRévolution</span>
-          </span>
+          
         </Link>
 
         {/* Desktop Menu */}

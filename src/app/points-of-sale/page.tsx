@@ -12,29 +12,10 @@ export default function PointsOfSale() {
         "Notre cœur battant. Un espace de création, de transmission et d'exposition permanente situé à Lomé.",
       address: "Quartier Totsi, Lomé, Togo",
       hours: "Lun - Ven: 09h00 - 18h00 / Sam: 10h00 - 16h00",
-      contact: "+228 90 00 00 00",
+      contact: "+228 92 60 43 76",
       featured: true,
     },
-    {
-      name: "Galerie des Ambassadeurs",
-      type: "Galerie Partenaire",
-      description:
-        "Une sélection exclusive de nos œuvres les plus prestigieuses dans un cadre raffiné.",
-      address: "Boulevard du Mono, Lomé",
-      hours: "Mar - Sam: 11h00 - 19h00",
-      contact: "+228 91 11 11 11",
-      featured: false,
-    },
-    {
-      name: "Boutique Concept Culture",
-      type: "Boutique Design",
-      description:
-        "Retrouvez nos petites pièces, reproductions et objets d'art décoratif.",
-      address: "Aéroport Gnassingbé Eyadéma, Lomé",
-      hours: "Tous les jours: 08h00 - 21h00",
-      contact: "+228 92 22 22 22",
-      featured: false,
-    },
+    
   ];
 
   return (
