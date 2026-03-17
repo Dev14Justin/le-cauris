@@ -2,8 +2,39 @@
 
 import Section from "@/components/Section";
 import Image from "next/image";
+import { useMemo, useState } from "react";
 
 export default function Contact() {
+  const phoneDigits = "22871104492";
+
+  const [form, setForm] = useState({
+    fullName: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const whatsappHref = useMemo(() => {
+    const lines = [
+      "Bonjour Le Cauris,",
+      "",
+      `Nom : ${form.fullName || "-"}`,
+      `Email : ${form.email || "-"}`,
+      `Sujet : ${form.subject || "-"}`,
+      "",
+      "Message :",
+      form.message || "-",
+    ];
+
+    const text = lines.join("\n");
+    return `https://wa.me/${phoneDigits}?text=${encodeURIComponent(text)}`;
+  }, [form.email, form.fullName, form.message, form.subject]);
+
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    window.open(whatsappHref, "_blank", "noopener,noreferrer");
+  }
+
   return (
     <>
       {/* Hero Section */}
@@ -138,15 +169,23 @@ export default function Contact() {
                 <h2 className="text-xl font-bold mb-6 text-neutral-800">
                   Envoyez-nous un message
                 </h2>
-                <form className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <form
+                  className="grid grid-cols-1 md:grid-cols-2 gap-5"
+                  onSubmit={handleSubmit}
+                >
                   <div className="space-y-1.5">
                     <label className="text-[9px] font-bold text-neutral-400 uppercase tracking-widest pl-1">
                       Nom complet
                     </label>
                     <input
                       type="text"
+                      required
                       className="w-full px-4 py-2.5 bg-neutral-50 border border-neutral-100 rounded-lg focus:ring-1 focus:ring-orange-600 focus:bg-white focus:outline-none transition-all text-sm"
                       placeholder="Ex: Koffi Mensah"
+                      value={form.fullName}
+                      onChange={(e) =>
+                        setForm((prev) => ({ ...prev, fullName: e.target.value }))
+                      }
                     />
                   </div>
                   <div className="space-y-1.5">
@@ -155,8 +194,13 @@ export default function Contact() {
                     </label>
                     <input
                       type="email"
+                      required
                       className="w-full px-4 py-2.5 bg-neutral-50 border border-neutral-100 rounded-lg focus:ring-1 focus:ring-orange-600 focus:bg-white focus:outline-none transition-all text-sm"
                       placeholder="Ex: koffi@mail.com"
+                      value={form.email}
+                      onChange={(e) =>
+                        setForm((prev) => ({ ...prev, email: e.target.value }))
+                      }
                     />
                   </div>
                   <div className="md:col-span-2 space-y-1.5">
@@ -165,8 +209,13 @@ export default function Contact() {
                     </label>
                     <input
                       type="text"
+                      required
                       className="w-full px-4 py-2.5 bg-neutral-50 border border-neutral-100 rounded-lg focus:ring-1 focus:ring-orange-600 focus:bg-white focus:outline-none transition-all text-sm"
                       placeholder="Comment pouvons-nous vous aider ?"
+                      value={form.subject}
+                      onChange={(e) =>
+                        setForm((prev) => ({ ...prev, subject: e.target.value }))
+                      }
                     />
                   </div>
                   <div className="md:col-span-2 space-y-1.5">
@@ -175,8 +224,13 @@ export default function Contact() {
                     </label>
                     <textarea
                       rows={4}
+                      required
                       className="w-full px-4 py-2.5 bg-neutral-50 border border-neutral-100 rounded-lg focus:ring-1 focus:ring-orange-600 focus:bg-white focus:outline-none transition-all resize-none text-sm"
                       placeholder="Votre message ici..."
+                      value={form.message}
+                      onChange={(e) =>
+                        setForm((prev) => ({ ...prev, message: e.target.value }))
+                      }
                     />
                   </div>
                   <div className="md:col-span-2 pt-2">

@@ -111,9 +111,14 @@ export default function PointsOfSale() {
                   </div>
                 </div>
 
-                <button className="mt-8 w-full py-3 rounded-xl border border-neutral-200 text-neutral-800 font-bold hover:bg-neutral-900 hover:text-white hover:border-neutral-900 transition-all text-[11px] uppercase tracking-widest">
+                <a
+                  href="https://maps.app.goo.gl/MJhJCd6pVgHnfMY76"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="mt-8 block w-full py-3 rounded-xl border border-neutral-200 text-neutral-800 font-bold hover:bg-neutral-900 hover:text-white hover:border-neutral-900 transition-all text-[11px] uppercase tracking-widest text-center"
+                >
                   Y aller via Maps
-                </button>
+                </a>
               </div>
             ))}
           </div>

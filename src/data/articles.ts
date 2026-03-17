@@ -36,17 +36,52 @@ export const articles: Article[] = [
       "/article/Article 1/Article 1 _page-0005.jpg",
       "/article/Article 1/Article 1 _page-0006.jpg",
     ],
-    content: `L'exposition collective « S'organiser Suffira » a ouvert ses portes au Musée Paul Ahyi (Agoè-Caccaveli, Lomé) du 25 janvier au 22 février 2025. Ce rendez-vous artistique d'envergure a réuni onze artistes plasticiens togolais autour d'une vision commune : celle que l'organisation et la solidarité constituent la clef du changement.
+    content: `Et si s'organiser suffisait ?
+"S'organiser suffira" repose sur une
+idée simple mais puissante : en réponse
+aux défis sociaux, économiques et culturels que connaissent nos espaces matériels et
+immatériels. L'organisation collective efficace peut être un levier décisif. Le titre S'organiser
+suffira extrait de la phrase "nous avons besoin
+de justice, nous devons réclamer justice mais s'organiser suffira" traduit l'idée que, dans le
+chaos apparent, il y a une force de transformation à portée de main, si nous choisissons de
+structurer nos efforts. Par cette initiative, le musée souhaite encourager la collaboration et le
+dialogue comme réponses aux défis contemporains. Défis que le peuple africain et afro
+descendant connaît très bien et qui serait redondant de citer ici.
 
-Parmi les artistes exposants figuraient des noms reconnus de la scène plastique locale comme Manouchka Shams, Tesprit et Marius Dansou. Chacun a proposé un regard singulier sur la thématique, à travers des œuvres mêlant peintures, sculptures et installations.
+Onze artistes de quatres nationalités différentes (Togo, Bénin, Burkina Faso,
+Cameroun🇨🇲) font cette exposition. Chacun avec son style et son approche agit comme un
+prisme qui reflète une facette différente de la condition humaine, des préoccupations
+sociales ou des expériences personnelles. La diversité des sujets abordés, qu'il s'agisse de
+questions identitaires, culturelles, environnementales, politiques ou purement esthétiques,
+permet à l'exposition de toucher un spectre élargi de sensibilités et d'interroger des enjeux
+variés. Cela confère à l'ensemble une profondeur à laquelle l'homogénéité ne pourrait
+prétendre.
 
-Le Musée Paul Ahyi, temple de la culture togolaise, s'est une nouvelle fois imposé comme le cadre idéal pour accueillir des créations qui interpellent le visiteur et l'invitent à la réflexion. L'atmosphère de l'exposition était à la fois contemplative et engagée, conjuguant l'esthétique à un propos résolument politique et social.
+Il est souvent de coutume dans la liturgie des expositions collectives d'amener les artistes à
+dire surtout un même thème. Ici ce n'est pas le cas. Le titre et les actions menées
+collectivement entre les artistes et le musée pour que ce projet se suffisent. En organisant
+une exposition qui célèbre l'action collective avec des voix distinctes sans chercher à les
+uniformiser, nous embrassons la complexité même de notion d'organisation. Plutôt que de
+diluer les individualités, le choix de juxtaposer des points de vue variées souligne leur
+complémentarité et les résonances inattendues qui émergent de leur dialogue. Chaque
+pièce devient ainsi une contribution essentielle au
+récit global de l'exposition, créant une dynamique d'interaction où la somme dépasse la
+simple addition des parties.
 
-Art Révolution a participé activement à la couverture et à la promotion de cet événement, fidèle à sa mission de valorisation des talents africains. L'exposition « S'organiser Suffira » restera dans les mémoires comme une édition qui a su rassembler, inspirer et mobiliser.`,
+Enfin, l'exposition ne propose pas de solutions toutes faites. Elle cherche plutôt à ouvrir des
+espaces de dialogue, à nourrir des réflexions
+et à inspirer des actes. S'organiser suffira ne prétend pas que l'organisation est une
+panacée, mais elle affirme avec force qu'elle est un début, une tentative essentielle et
+profondément humaine de résister à l'inertie, au chaos ou à la résignation.
+
+L'exposition continue jusqu'au 22 février 2025
+#ArtRevolution : Votre source d'information sur l'actualité artistique.
+
+Publié le 28 janvier 2025`,
   },
   {
     id: "2",
-    title: "Biographie : Cosmaskete, l'art comme engagement politique",
+    title: "Biographie de Cosmas Kete",
     category: "Biographie",
     excerpt:
       "Portrait de Cosmaskete (Kete Atsou), artiste plasticien cobondateur d'Art Révolution, dont l'œuvre est entièrement dédiée à la revalorisation de l'identité et des valeurs africaines.",
@@ -54,22 +89,29 @@ Art Révolution a participé activement à la couverture et à la promotion de c
     author: "Rédaction Le Cauris",
     imageUrl: "/article/Article 2/Article 2.jpg",
     images: ["/article/Article 2/Article 2.jpg"],
-    content: `Kete Atsou, connu sous le nom d'artiste Cosmaskete, est l'une des figures les plus engagées de la scène artistique togolaise contemporaine. Co-fondateur de la plateforme Art Révolution aux côtés de WOMI Koffi Arsène, il incarne à travers son œuvre une vision profondément africaine de l'art.
+    content: `KETE Atsou mieux connu sous le nom d'artiste Cosmakete, incarne la fusion entre
+l'ingéniosité scientifique, la créativité artistique et l'engagement social. Après une licence en
+Économie Internationale, sa passion pour l'Art le conduit sur une voie différente. Après
+immersion rapide au Village Artisanal de Lomé, il ouvre les portes de son Atelier CosArt, en
+tant que Plasticien Polyvalent. Cosmakete est un digne fils d'Afrique avec un engagement
+farouche et une détermination pour le bien-être et l'équilibre de sa société. Après sept (7)
+ans au service de son pays comme Professeur des Arts Plastiques, son amour pour l'Afrique
+le projette sur la scène internationale avec une tournée sur le Bénin (Cotonou), le
+Burkina-Faso (Ouaga) et une exposition au Togo (Lomé) sur le thème " REVALORISATION
+DES VALEURS AFRICAINES : GARANTS DE L'HUMANITÉ" dans le cadre de l'éveil de
+l'Afrique. Il se définit comme Artisan et Acteur pour le retour aux valeurs et identités
+Africaines qu'il qualifie de capital pour le survie de l'humanité.
 
-Né au Togo, Cosmaskete a très tôt développé une sensibilité particulière pour les symboles, les couleurs et les matières qui définissent l'identité culturelle africaine. Ses tableaux se distinguent par une palette riche et vibrante, et par un recours assumé aux éléments emblématiques du continent : le cauris, les masques, les tissus traditionnels.
+#ArtRevolution : Votre source d'information sur l'actualité artistique.
 
-Pour lui, peindre n'est pas un acte gratuit. C'est un acte militant. Chaque toile est une déclaration, un manifeste pour la dignité africaine et pour le refus de l'oubli culturel. Sa série « Revalorisation des Valeurs Africaines », exposée en avril 2025 au CETEF Togo 2000, en est l'illustration la plus récente et la plus aboutie.
-
-Cosmaskete est également un passeur de savoirs. Au sein d'Art Révolution, il s'implique dans la formation de jeunes artistes, convaincu que la transmission est la condition première de la survie d'une culture. Son engagement dépasse l'atelier : il est présent dans les écoles, les espaces communautaires, les forums culturels.
-
-« L'art est un miroir. Si vous regardez une œuvre africaine et ne vous y reconnaissez pas, c'est que quelqu'un a brisé ce miroir. Mon travail, c'est de le réparer. » — Cosmaskete`,
+Publié le 30 janvier 2025`,
   },
   {
     id: "3",
-    title: "Café Littéraire – La Poésie de Kodjo Ketohou",
+    title: "Coup de projecteur sur la poésie togolaise: 'Vers et envers'",
     category: "Culture",
     excerpt:
-      "Retour sur le Café Littéraire dédié à la poésie de Kodjo Ketohou, une soirée d'échange intense qui a célébré la puissance du verbe et la richesse de la tradition orale togolaise.",
+      "Retour sur le Café Littéraire dédié à la poésie de Kodjo Akakpo-Noumado, une soirée d'échange intense qui a célébré la puissance du verbe et la richesse de la tradition orale togolaise.",
     date: "Mars 2025",
     author: "Rédaction Le Cauris",
     imageUrl: "/article/Article 3/Article 3_page-0001.jpg",
@@ -79,22 +121,36 @@ Cosmaskete est également un passeur de savoirs. Au sein d'Art Révolution, il s
       "/article/Article 3/Article 3_page-0003.jpg",
       "/article/Article 3/Article 3_page-0004.jpg",
     ],
-    content: `La tradition du Café Littéraire organisé par Art Révolution s'est une nouvelle fois illustrée avec une soirée dédiée à la poésie de Kodjo Ketohou. Face à un public nombreux et attentif, le poète a déclamé ses textes avec une intensité rare, faisant vibrer la salle de résonances à la fois intimes et universelles.
+    content: `Le ministère togolais de la Communication, des Médias et de la Culture, en partenariat avec
+l'Institut Goethe de Lomé, est fier de lancer Le Livre du Mois, une initiative visant à
+promouvoir la richesse de la littérature nationale. Pour le mois de janvier 2025, nous
+sommes ravis de mettre en lumière le recueil de poèmes "Vers et envers" de Kodjo
+Akakpo-Noumado.
 
-Kodjo Ketohou est l'un des poètes les plus singuliers de sa génération au Togo. Sa langue, à la croisée du français et des langues éwé et mina, tisse des images puissantes autour des thèmes de la mémoire, de la nature, de l'amour et de la résistance. Ses textes empruntent autant à la tradition orale qu'à la modernité littéraire.
+Ce recueil exceptionnel explore des thèmes universels tels que l'amour, le temps qui passe
+et la beauté de la nature, offrant une lecture profonde et émouvante.
 
-La soirée a été l'occasion d'échanges riches entre le poète et le public, autour de la place de la littérature dans la société togolaise, du rôle du poète comme voix du peuple, et des défis de la création littéraire en Afrique francophone.
+Pour célébrer cette œuvre, un café littéraire s'est tenu le jeudi 30 janvier 2025, de 19h00 à
+21h00, dans la salle de conférence du ministère de la Communication, des Médias et de la
+Culture. L'événement a été marqué par la présence de l'artiste plasticien Cosmas Kete , qui
+a créé en direct une œuvre d'art en hommage aux femmes du gouvernement, soulignant
+leur rôle essentiel dans le développement du pays.
 
-Art Révolution a voulu, à travers ce Café Littéraire, rappeler que la poésie est aussi une forme d'art visuel : elle peint, elle sculpte, elle compose. En réunissant des artistes plasticiens et des poètes sous un même toit, la plateforme affirme sa conviction que toutes les formes d'expression artistique se nourrissent les unes des autres.
+L'œuvre de Cosmaskete représente une femme portant une calebasse remplie de nourriture
+(symbole de l'énergie nécessaire pour progresser), enveloppant son enfant dans le drapeau
+togolais (représentant la jeunesse et l'avenir), et protégeant fièrement cette jeunesse avec
+un parapluie (symbole de protection contre les défis).
 
-Les œuvres de Cosmaskete exposées ce soir-là — dont sa toile signature mettant en scène une femme portant un enfant au dos — ont répondu en écho silencieux aux mots du poète, dans une harmonie qui a ému plus d'un spectateur.`,
+#ArtRevolution : Votre source d'information sur l'actualité artistique.
+
+Publié le 04 février 2025`,
   },
   {
     id: "4",
-    title: "Art & Mémoires 2025 – La mémoire comme acte de résistance",
+    title: "Lancement officiel du festival Art et Mémoires Édition 3",
     category: "Culture",
     excerpt:
-      "Compte-rendu du Festival Art & Mémoires 2025, tenu du 6 au 16 février à Agbodrafo, Lomé et Kpalimé, autour du thème de la mémoire de la traite négrière et de l'unicité africaine en héritage.",
+      "Compte-rendu du lancement officiel du festival Art et Mémoires Édition 3, sur le thème: 'L'art au service de la mémoire de la traite négrière et l'unicité en héritage'.",
     date: "Février 2025",
     author: "Rédaction Le Cauris",
     imageUrl: "/article/Article 4/Article 4_page-0001.jpg",
@@ -107,22 +163,30 @@ Les œuvres de Cosmaskete exposées ce soir-là — dont sa toile signature mett
       "/article/Article 4/Article 4_page-0007.jpg",
       "/article/Article 4/Article 4_page-0008.jpg",
     ],
-    content: `Le Festival Art & Mémoires a une fois encore prouvé sa capacité à mobiliser les consciences et les Arts autour d'une cause essentielle : la mémoire de la traite négrière et son inscription dans l'identité africaine contemporaine. Tenu du 6 au 16 février 2025 à Agbodrafo, Lomé et Kpalimé (Togo), et simultanément en Guadeloupe, cet événement a rassemblé artistes, historiens, militants culturels et citoyens engagés.
+    content: `Le 6 février 2025, a eu lieu le lancement officiel du festival Art&Mémoire 3ème Édition, sur le
+thème: "L'art au service de la mémoire de la traite négrière et l'unicité en héritage".
+Ce festival se veut un catalyseur pour les mémoires refoulées de l'esclavage, explorant les
+impacts de cette période sombre de notre histoire commune, tant sur le continent africain
+que dans sa diaspora. Il offre un espace privilégié pour construire des ponts vers un avenir
+de réconciliation.
+L'artiste plasticien de renom, Cosmas Kete , a été invité à ouvrir cette troisième édition avec
+une performance live captivante lors du lancement. Son œuvre révèle une Afrique nouvelle,
+consciente de son potentiel et résolument tournée vers un avenir meilleur.
+Nous tenons à exprimer notre gratitude à RasSankara Agbako #ArtetMémoires , l'artiste
+performeur togolais visionnaire et créateur de ce festival, ainsi qu'à tous les artistes,
+partenaires médias et collaborateurs présents. Leur engagement a été essentiel à la
+richesse de cet événement.
 
-Le programme de cette édition 2025 était particulièrement dense. Une marche mémorielle a été organisée le 9 février, symbolisant le chemin parcouru par les millions d'Africains arrachés à leur terre. Des conférences ont suivi, réunissant chercheurs et intellectuels pour revisiter l'histoire et ses répercussions sur les sociétés africaines et caribéennes d'aujourd'hui.
+#ArtRevolution : Votre source d'information sur l'actualité artistique.
 
-Le concert de clôture, le 16 février, a constitué l'un des moments les plus forts du festival. Des artistes venus des deux rives de l'Atlantique — Togo et Guadeloupe — ont fusionné leurs traditions musicales en un dialogue sonore vibrant, rappelant que la mémoire est aussi une fête, une célébration de la survie.
-
-Art Révolution, partenaire de cet événement, a assuré une couverture complète du festival, de l'installation des œuvres aux échanges entre les participants. Les partenaires KEKELI, HUB CITY, wärma et NeHo Liko ont soutenu l'initiative et contribué à son rayonnement.
-
-Le thème « Unicité en héritage » résume bien l'ambition du festival : non pas pleurer le passé, mais en faire une force pour le présent et l'avenir.`,
+Publié le 07 février 2025.`,
   },
   {
     id: "5",
-    title: "Espoir FADU – Lancement du Programme « La Mission de Mon Pinceau »",
+    title: "L'art au service de la paix : Espoir FADU lance 'La Mission de Mon Pinceau' à Lomé",
     category: "Événement",
     excerpt:
-      "Retour sur le lancement officiel du programme « La Mission de Mon Pinceau » d'Espoir FADU, une initiative culturelle ambitieuse dédiée à la paix et au développement en Afrique.",
+      "Retour sur le lancement officiel du programme 'La Mission de Mon Pinceau' d'Espoir FADU, une initiative culturelle ambitieuse dédiée à la paix et au développement en Afrique.",
     date: "Novembre 2024",
     author: "Rédaction Le Cauris",
     imageUrl: "/article/Article 5/Article 5_page-0001.jpg",
@@ -133,39 +197,120 @@ Le thème « Unicité en héritage » résume bien l'ambition du festival : non 
       "/article/Article 5/Article 5_page-0004.jpg",
       "/article/Article 5/Article 5_page-0005.jpg",
     ],
-    content: `Le programme culturel « La Mission de Mon Pinceau » d'Espoir FADU a été officiellement lancé lors d'une cérémonie de presse tenue à l'Atelier le « Citoyen » à Avenou, Lomé. Cette initiative, portée par l'Association les Messagers de la Jarre de Paix (AMJP) et ses partenaires, se veut un pont entre l'art, la paix et le développement durable en Afrique.
+    content: `L'art comme vecteur de changement social : c'est la mission que s'est donnée l'artiste
+togolais Espoir FADU Espoir Fadu en lançant son ambitieux programme La Mission de
+Mon Pinceau le mercredi 26 février 2025 à Lomé. Dans une atmosphère empreinte d'espoir
+et de créativité, cet événement a réuni des acteurs clés de la culture, de la paix et du
+développement, venus soutenir l'initiative de cet artiste engagé.
 
-Espoir FADU est un artiste togolais dont le nom porte en lui-même tout un programme : « FADU » — Foi, Amour, Détermination, Unicité. À travers ses œuvres et ses performances, il utilise l'art plastique comme outil de conscientisation et de construction de la paix sociale, notamment auprès des jeunes.
+Espoir FADU, artiste reconnu pour son talent et son engagement, a décidé de mettre son art
+au service du vivre-ensemble et du développement social. Fort de ses nombreuses
+distinctions nationales et internationales, il est convaincu que l'art est un puissant outil de
+transformation sociale. C'est dans cette optique qu'il a conçu "La Mission de Mon Pinceau",
+un programme sur une période de cinq(5) ans renouvelables visant à promouvoir la culture,
+la paix et le développement au Togo et en Afrique.
 
-Le lancement du programme a rassemblé des représentants institutionnels, des acteurs culturels, des journalistes et un public de passionnés. La conférence de presse a été l'occasion de présenter les axes du programme : ateliers dans les écoles, expositions itinérantes, interventions dans les zones de conflit ou de tension sociale, et création d'un fonds de soutien aux jeunes artistes.
+Le programme se décline en plusieurs axes : ateliers de formation artistique,
+expositions-ventes et actions sociales. Les quatre premiers mois seront consacrés à des
+expositions-ventes, dont les fonds récoltés financeront des actions sociales à travers le
+pays. Espoir FADU a également été chargé d'élaborer le guide de maintien de l'ordre pour
+les forces de sécurité des 54 États africains, témoignant de son engagement pour la paix et
+la sécurité.
 
-La bannière du programme, visible lors de l'événement, résumait l'ambition : « Culture – Paix – Développement en Afrique ». Une devise qui s'inscrit parfaitement dans la vision d'Art Révolution, qui a apporté son soutien médiatique à cette initiative.
+Mais au-delà de cette dimension institutionnelle et sécuritaire, le lancement a été marqué
+par un hommage vibrant aux racines de l'artiste, rappelant que chaque grand projet puise sa
+force dans une histoire personnelle.
 
-Art Révolution croit fermement que l'art est un vecteur de transformation sociale, et le programme d'Espoir FADU en est une illustration concrète et inspirante.`,
+En effet, l'artiste plasticien de renom Cosmaskete a offert une performance mémorable en
+hommage à son « doyen ». En direct, il a créé une toile symbolique représentant une femme
+portant un enfant : un hommage à la mère d'Espoir FADU, décoratrice de talent qui l'a initié
+à l'art dès son plus jeune âge. Cette œuvre, montrant l'enfant puisant dans le sac de sa
+mère, a ajouté une dimension émotionnelle forte, soulignant l'importance de la transmission
+dans cette nouvelle mission.
+
+Les institutions internationales et nationales ont salué l'initiative d'Espoir FADU. Le
+représentant de l'UNREC a souligné que "Espoir FADU est bien plus qu'un artiste ; c'est un
+véritable acteur de changement qui met son talent au service de la justice, prônant la
+tolérance, la paix et le vivre-ensemble." Le Directeur de la promotion des Arts et de la
+Culture, AZIATI Vinyo, a quant à lui appelé à une mobilisation collective : "C'est notre
+mission à tous, Togolais et Africains."
+
+Pour sceller cette union et exprimer sa gratitude, Espoir FADU a clôturé la cérémonie par un
+geste symbolique fort : il a offert plusieurs de ses œuvres aux organisations et aux
+personnalités qui l'ont soutenu, marquant ainsi sa reconnaissance envers ceux qui rendent
+cette aventure possible.
+
+En conclusion, La Mission de Mon Pinceau est un programme ambitieux et durable qui
+promet de laisser une empreinte positive sur la société togolaise et africaine. Espoir FADU,
+chantre de la paix et de la cohésion sociale, a su mobiliser autour de lui des partenaires et
+des acteurs engagés, faisant de cet événement un moment fort de la vie culturelle togolaise.
+
+#ArtRevolution : Votre source d'information sur l'actualité artistique.
+
+Publié le 28 février 2025.`,
   },
   {
     id: "6",
-    title: "Biographie : Lekid – L'étoile montante de la scène togolaise",
+    title: "Biographie de Lekid",
     category: "Biographie",
     excerpt:
-      "Portrait de Lekid, jeune artiste polyvalent dont le parcours atypique et la détermination sans faille font de lui l'une des figures les plus prometteuses de la nouvelle génération artistique togolaise.",
+      "Portrait de Lekid, artiste polyvalent togolais dont le parcours atypique et la détermination sans faille font de lui l'une des figures les plus prometteuses de la nouvelle génération artistique togolaise.",
     date: "Octobre 2024",
     author: "Rédaction Le Cauris",
     imageUrl: "/article/Article 6/Article 6.jpg",
     images: ["/article/Article 6/Article 6.jpg"],
-    content: `Lekid. Un prénom d'artiste qui sonne comme une promesse. Derrière ce nom se cache un jeune créateur togolais dont le talent et la polyvalence n'ont de limites que celles qu'il se fixe lui-même. Musicien, performeur et artiste visuel, Lekid incarne parfaitement la nouvelle génération africaine : connectée au monde, ancrée dans ses racines, déterminée à s'imposer.
+    content: `LEKID 28 Officiel , de son nom vrai ADJOGLI Kodjo Pascal, est un artiste rappeur,
+auteur-compositeur togolais né le **- ** - 2*** à Awatamé. Dès son plus jeune âge, il a été
+influencé par deux grandes passions : le football et la musique. Bien qu’il ait passé une
+grande partie de son enfance à rêver de devenir footballeur professionnel, son amour pour
+la musique a toujours occupé une place spéciale dans sa vie.
 
-Son parcours est tout sauf linéaire. Autodidacte dans l'âme, Lekid a appris son métier dans les rues de Lomé, dans les ateliers de création collective, et en dialogue constant avec des aînés comme Cosmaskete, dont l'influence est visible dans son approche plastique. Mais Lekid a su forger sa propre voix, reconnaissable entre toutes.
+Brillant élève, LEKID 28 a su jongler entre ses ambitions sportives, ses études et son intérêt
+croissant pour la musique. À un moment donné, il a fait le choix de mettre temporairement
+de côté son rêve de football pour se concentrer sur ses études. Cependant, sa passion pour
+la musique ne l’a jamais quittée. Pendant ses années d’école, Lekid 28 s'est d'abord fait
+connaître grâce à ses freestyles percutants diffusés dans les rues et sur les réseaux
+sociaux. Son flow unique et ses paroles engagées ont rapidement séduit un public jeune et
+connecté.
 
-Sa musique emprunte aux sonorités de l'Afrique de l'Ouest — le highlife, l'afrobeats, le coupé-décalé — tout en les irriguant d'influences urbaines internationales. Sur scène, il dégage une énergie communicative qui capte immédiatement l'attention du public.
+Après l’obtention de son BEPC avec mention, LEKID 28 s’est consacré davantage à sa
+carrière musicale. Malgré des moyens financiers limités; son père étant conducteur de Taxi
+Moto et sa mère une revendeuse du quartier ; il a persévéré. Pendant les vacances
+scolaires, il a travaillé dur pour financer ses enregistrements en studio, prouvant ainsi sa
+détermination.
 
-Art Révolution a choisi de mettre Lekid à l'honneur dans cet article car son histoire est celle de milliers de jeunes africains qui créent sans filet, sans lest institutionnel, avec pour seule boussole leur passion et leur foi en leur art. C'est précisément pour ces jeunes talents que la plateforme existe : pour leur offrir visibilité, soutien et réseau.
+En avril 2023, son travail acharné a payé. Un de ses freestyles transformé en chanson a
+explosé sur les réseaux sociaux, le révélant au grand public. Cet exploit a marqué le début
+de sa notoriété, tant au Togo qu’au Ghana, où il a reçu une attention particulière. Il a été
+invité par des stars internationales comme Camidoh et Santrinos Raphaël, affirmant sa
+place dans le rap game togolais.
 
-L'avenir de Lekid s'écrit à l'encre de sa créativité. Nous n'avons pas fini d'entendre parler de lui.`,
+Lekid 28 est considéré comme un artiste prometteur de sa génération. Il a déjà à son actif
+plusieurs titres à succès tels que (Aflaouvi freestyle, Zangbétor, Choco Milo, On my way), et
+travaille sans relâche pour étendre son influence musicale. Son style original, qu'il qualifie de
+#AflaouDrill, est un mélange d'influences diverses qui apporte une fraîcheur nouvelle à la
+scène rap togolaise.
+
+Malgré la jeunesse de sa carrière, Lekid 28 a déjà été récompensé pour son talent,
+notamment en remportant le deuxième prix dans la catégorie "Meilleure jeune étoile
+montante de la musique" lors des cérémonies de récompenses TOGO TALENT D'OR 2024 .
+
+En 2025, Lekid 28 franchit une nouvelle étape dans sa carrière avec la sortie de son premier
+EP intitulé GENTRI. Ce projet de cinq titres (On my way, Go get money, Correction, Alpha
+Oméga, Password) est disponible sur toutes les plateformes de téléchargement depuis le 01
+février 2025.
+
+Lekid 28 originaire d'aflaou continue d'évoluer et d'expérimenter, avec l'ambition de toucher
+un public toujours plus large et de laisser une empreinte durable dans l'industrie musicale
+togolaise.
+
+#ArtRevolution : Votre source d'information sur l'actualité artistique
+
+Publié le 01 Mars 2025.`,
   },
   {
     id: "7",
-    title: "Talakaka – Décryptage d'un album entre tradition et modernité",
+    title: "Talakaka Officiel : De la danse à la scène musicale, un artiste qui repousse les limites",
     category: "Musique",
     excerpt:
       "Analyse du dernier opus musical de Talakaka, un album ambitieux qui tisse un dialogue inédit entre les sonorités traditionnelles africaines et les productions musicales contemporaines.",
@@ -173,19 +318,40 @@ L'avenir de Lekid s'écrit à l'encre de sa créativité. Nous n'avons pas fini 
     author: "Rédaction Le Cauris",
     imageUrl: "/article/Article 7/Article 7.jpg",
     images: ["/article/Article 7/Article 7.jpg"],
-    content: `Avec son nouvel album, Talakaka signe une œuvre qui s'affranchit des cases. Ni purement traditionnel, ni résolument moderne, cet opus se situe dans un espace interstitiel fascinant, là où les genres se rencontrent et s'enrichissent mutuellement.
+    content: `Découvrez l'histoire inspirante de Talakaka, de son vrai nom Yovogan Komi Espoir, un artiste
+togolais qui ne cesse de surprendre. Parti de la danse, il a conquis le public sur TikTok grâce
+à son énergie et sa créativité.
 
-Le terme « Talakaka » lui-même vient d'une langue du nord du Togo et évoque la résilience, la capacité à se relever après une chute. C'est l'âme de cet album : une musique qui dit la souffrance sans se complaire en elle, et qui célèbre le recommencement, la renaissance.
+Talakaka a commencé sa carrière en tant que danseur, collaborant avec les plus grands
+noms de la scène musicale togolaise et même internationale. Fondateur du groupe
+"Magniere Boys", sa passion ne s'est pas arrêtée là. Animé par une ambition sans bornes, il
+franchit un nouveau cap en se lançant dans la musique.
 
-Dès les premières notes, l'auditeur est frappé par la richesse des arrangements. Les percussions traditionnelles — tam-tams, djembés, calebasses — dialoguent avec des claviers électroniques et des guitares. Les voix, parfois solitaires, parfois en polyphonie, tissent un récit qui traverse les générations.
+En 2016, il amorce un tournant décisif en lançant sa carrière solo avec "Magniere
+Magniere". Depuis, il enchaîne les hits : "Profiter", "Forcé", "Sadness", "IYA", "Enjoy",
+"Bless", "Marry You", "APETOR" (feat. Santrinos Raphaël & Black Manu), "High Life" (feat.
+Fanicko Fanicko ), "Étéréré", "Gbégné"... Autant de titres qui confirment son statut d'artiste
+accompli.
 
-Les thèmes abordés sont universels : l'amour, la famille, la mélancolie de l'exil, la fierté d'appartenir à une culture millénaire. Mais ils sont traités avec une subtilité qui évite tout folklore de façade. Talakaka ne cherche pas à faire de la tradition un spectacle : il en fait un langage vivant.
+Aujourd'hui, son travail acharné prend tout son sens avec Inside Me, un album de 18 titres
+dévoilé le 1er mars 2025. Ce projet ambitieux, empreint d'émotions et de sincérité, reflète
+toute l'essence de son art. Il incarne le fruit d'un parcours marqué par le courage, la
+persévérance et le dépassement de soi.
 
-Art Révolution a suivi de près la création de cet album et en a assuré la promotion auprès de son communauté. Cet artiste mérite une écoute attentive et un public à la hauteur de son talent.`,
+Inside Me est également un projet collaboratif, avec la participation d'artistes talentueux tels
+que Anodaboy, Mic Flammez Mic Flammez, Dorcy, Writing, Ralycia et Marho.
+
+Avec cet album, Talakaka écrit une nouvelle page de son histoire et s'impose comme l'un
+des visages montants de la musique togolaise. Son ascension ne fait que commencer, et
+son art continue d'inspirer toute une génération.
+
+#ArtRevolution, Le cauris votre source d'information sur l'actualité artistique
+
+Publié le 10 Mars 2025.`,
   },
   {
     id: "8",
-    title: "Lancement du livre « Un Pied à l'École, Un Pied sur LinkedIn » – Parfait K. Toke",
+    title: "Lancement du livre 'Un pied à l'école, un pied sur LinkedIn' de Parfait TOKE à Lomé",
     category: "Littérature",
     excerpt:
       "Retour sur la cérémonie de lancement du premier livre de Parfait K. Toke, tenu le 9 avril 2025 à Open The Box, Lomé, un événement qui a réuni jeunes professionnels, entrepreneurs et passionnés de développement personnel.",
@@ -197,19 +363,36 @@ Art Révolution a suivi de près la création de cet album et en a assuré la pr
       "/article/Article 8/Article 8_page-0002.jpg",
       "/article/Article 8/Article 8_page-0003.jpg",
     ],
-    content: `Le mercredi 9 avril 2025 à 18h00 GMT, l'espace Open The Box à Lomé a accueilli la cérémonie officielle de lancement du livre « Un Pied à l'École, Un Pied sur LinkedIn » de Parfait K. Toke. La salle était comble, signe de l'attente suscitée par cet ouvrage au titre aussi percutant qu'évocateur.
+    content: `Le 9 avril 2025, Parfait Toke , développeur et consultant en innovation numérique,
+présentera officiellement son premier livre, "Un pied à l'école, un pied sur LinkedIn". Destiné
+aux jeunes professionnels, cet ouvrage offre des stratégies pour développer ses
+compétences, bâtir un réseau solide et exploiter pleinement LinkedIn.
 
-Parfait K. Toke est une figure bien connue de l'écosystème tech togolaise. Désormais auteur, il signe avec ce premier livre un guide pratique et inspirant destiné à la jeunesse africaine : comment conjuguer études, développement personnel et construction d'une présence professionnelle en ligne, notamment via LinkedIn.
+Au-delà d'un guide pratique, le livre partage les défis et les leçons tirées du parcours de
+l'auteur, soulignant l'importance d'allier études et ambition pour réussir. La précommande est
+obligatoire pour assister à l'événement, avec paiement possible sur place.Vous pouvez
+effectuer votre précommande en suivant ce lien : 
+https://lnkd.in/dmXemB-K
 
-Le lancement a été l'occasion d'un échange animé entre l'auteur et son public. Parfait K. Toke a partagé son parcours, ses doutes, ses apprentissages, et la conviction qui l'a poussé à écrire : celle que la jeunesse africaine a tout pour réussir, à condition d'être outillée, guidée et mise en réseau.
+Le paiement pourra être réalisé sur place lors de l'événement. Veuillez noter que seule la
+version physique du livre sera disponible en précommande, la version numérique étant
+prévue pour une diffusion ultérieure.
 
-Art Révolution a soutenu médiatiquement cet événement, convaincue que la littérature — comme les arts plastiques ou la musique — est un vecteur de transformation pour les sociétés africaines. La coïncidence des genres et des disciplines dans la programmation d'Art Révolution témoigne de cette vision large et inclusive de la culture.
+Parfait TOKE, également fondateur de communautés technologiques au Togo (Night
+Coding, Girls in Coding, etc.), Son implication dans des projets innovants tels que MIABE
+CAMPUS, Laitify et Drecio témoigne de son engagement à promouvoir l'excellence
+technologique et à encourager l'innovation en Afrique.
 
-L'ouvrage est disponible en version physique et numérique. Il s'adresse à tous les jeunes africains qui cherchent à construire leur avenir avec ambition et méthode.`,
+Ne manquez pas cette occasion de rencontrer Parfait TOKE, d'échanger avec lui et de vous
+inspirer de son parcours.
+
+#ArtRevolution, Le cauris votre source d'information sur l'actualité artistique.
+
+Publié le 31 mars 2025.`,
   },
   {
     id: "9",
-    title: "Biographie : KOUGBLENOU Marcel Kodzo – Le Maître du Cauris",
+    title: "Portrait d'Artiste : Kougblenou Marcel Kodzo, l’art au sommet de son ambition",
     category: "Biographie",
     excerpt:
       "Portrait de KOUGBLENOU Marcel Kodzo, artiste plasticien dont l'œuvre majeure « Le Cauris » a inspiré le nom et la vision fondatrice de la plateforme Art Révolution.",
@@ -217,14 +400,42 @@ L'ouvrage est disponible en version physique et numérique. Il s'adresse à tous
     author: "Rédaction Le Cauris",
     imageUrl: "/article/Article 9/Article 9.jpg",
     images: ["/article/Article 9/Article 9.jpg"],
-    content: `Il est l'artiste dont l'œuvre a tout déclenché. KOUGBLENOU Marcel Kodzo, plasticien togolais de renom, est l'auteur du tableau « Le Cauris » — une peinture qui a capturé l'essence même de l'identité africaine et a inspiré les fondateurs d'Art Révolution au point de donner son nom à toute une plateforme.
+    content: `Découvrez le parcours de Kougblenou Marcel Kodzo, ce jeune prodige de l’art plasticien
+togolais qui transforme chaque toile en un message d'excellence.
+Tout a commencé sur le sol, son premier support, où il dessinait avant même de savoir lire.
+Guidé par un père aimant et formé par des mentors de renom, Marcel a fait de l’art sa «
+thérapie ».
 
-Marcel KOUGBLENOU est un homme discret, mais son travail parle avec une éloquence rare. Ses toiles explorent la richesse des symboles africains — le cauris en tête, coquillage millénaire qui fut monnaie d'échange, ornement rituel et signe de prospérité. Sous son pinceau, le cauris devient une métaphore de l'Afrique elle-même : petite en apparence, infinie en profondeur.
+Son ascension est marquée par des succès prestigieux :
 
-L'œuvre « Le Cauris » a été découverte par les fondateurs d'Art Révolution lors d'une exposition à Lomé. Le choc fut immédiat. « Cette peinture disait tout ce que nous voulions faire, tout ce que nous voulions célébrer, » se souvient WOMI Koffi Arsène. C'est ainsi qu'une toile est devenue le nom et le symbole d'une plateforme.
+- Lauréat des concours Campus Talent (HOT 40 et HOT 50).
 
-Depuis, KOUGBLENOU Marcel Kodzo a poursuivi son travail avec la même rigueur et la même exigence. Il expose régulièrement au Togo et à l'international, et sa collaboration avec Art Révolution lui a donné une visibilité nouvelle, notamment auprès des collectionneurs et des curateurs africains de la diaspora.
+- Diplômé du CFA en septembre 2024 avec la mention "Très bien". Fidèle à sa devise : « Qui
+cherche la perfection obtient l'excellence ».
 
-Son œuvre est une invitation à regarder l'Afrique autrement : non pas avec la nostalgie du passé, mais avec la certitude que cette culture, vivante et créatrice, a encore mille choses à dire au monde.`,
+Le talent de Marcel rayonne désormais au-delà des galeries. Le mercredi 30 octobre 2024,
+l'artiste a franchi une étape symbolique majeure en étant reçu par l'Honorable DZREKE
+Ayao Gaston, 4ème Vice-Président de l’Assemblée nationale togolaise. À cette occasion,
+Marcel lui a offert un magnifique poster, une œuvre personnelle témoignant de la vitalité de
+la jeunesse créative du pays. Un geste fort qui souligne la place de l'art au cœur de la
+nation.
+
+Aujourd'hui, l'empreinte de Marcel est visible à travers des fresques murales emblématiques
+qui embellissent des édifices religieux et universitaires, notamment à l'Université de Lomé.
+Dans son atelier d'Adidogomé Lankouvi, il travaille avec une exigence rare, porté par sa
+devise : « Qui cherche la perfection obtient l’excellence ». Pour lui, chaque œuvre est une
+quête de maîtrise de son style et un espace de réflexion sur la condition humaine, visant à
+créer un dialogue intime avec chaque spectateur.
+
+Inspiré par de grands maîtres tels que Léonard de Vinci et Paul Ayi, Marcel nourrit des rêves
+de grandeur, aspirant à réaliser un jour l'œuvre la plus chère de l'histoire. S'il porte un regard
+lucide sur les défis du secteur artistique au Togo, il reste convaincu que l'art peut offrir un
+avenir prospère. Visionnaire et passionné, il incarne cette jeunesse togolaise déterminée à
+faire briller sa culture et à repousser les limites de la créativité sur la scène internationale.
+Un talent à suivre de très près !
+
+#ArtRevolution : @lecauris votre source d'information sur l'actualité artistique.
+
+Publié le 10 Mars 2024.`,
   },
 ];
