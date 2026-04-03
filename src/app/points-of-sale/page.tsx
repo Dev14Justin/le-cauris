@@ -10,7 +10,7 @@ export default function PointsOfSale() {
       type: "Espace Principal",
       description:
         "Notre cœur battant. Un espace de création, de transmission et d'exposition permanente situé à Lomé.",
-      address: "Quartier Totsi, Lomé, Togo",
+      address: "Adidogomé Lankouvi, Lomé, Togo",
       hours: "Lun - Ven: 09h00 - 18h00 / Sam: 10h00 - 16h00",
       contact: "+228 92 60 43 76",
       featured: true,
